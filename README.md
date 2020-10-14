@@ -10,4 +10,15 @@ There are few pre built modules used in the program. It is highly recommended to
 3. tkinter
 
 # Open Weather
-Before Running the program do create an account on openweather.org and generate your API key and past it in the program in the API section
+Before Running the program do create an account on [openweathermap](https://www.openweathermap.org) and generate your API key and past it in the program in the API section
+
+Replace **Paste your API here** with your **API** which you have Genearated on above site
+
+```import tkinter as tk
+import requests
+import json
+win=tk.Tk()
+win.title("Weather")
+win.geometry("500x200")
+
+api="Paste Your API here"
