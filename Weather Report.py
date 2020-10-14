@@ -5,7 +5,7 @@ win=tk.Tk()
 win.title("Weather")
 win.geometry("500x200")
 
-api="06f72727914c5abb0ce4248abd1d1ceb"
+api="Paste Your API Here"
 url="http://api.openweathermap.org/data/2.5/weather?"
 
 def weather():
